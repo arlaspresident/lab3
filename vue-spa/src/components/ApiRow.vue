@@ -1,9 +1,10 @@
 <template>
   <tr>
-    <td>{{ row.title }}</td>
-    <td>{{ row.description }}</td>
+    <td>{{ row.name }}</td>
+    <td>{{ row.duration }}</td>
+    <td>{{ row.completed ? '✓ Yes' : 'No' }}</td>
     <td>
-      <button @click="$emit('remove', row.id)">Delete</button>
+      <button @click="$emit('remove', row.id)" class="btn-delete">Delete</button>
     </td>
   </tr>
 </template>
@@ -15,7 +16,6 @@ defineProps({
     required: true,
   },
 })
-
 defineEmits(['remove'])
 </script>
 
@@ -25,5 +25,15 @@ button {
   border-radius: 6px;
   border: 1px solid #ccc;
   cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
 }
 </style>
