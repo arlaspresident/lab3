@@ -38,7 +38,7 @@ import ApiRow from './ApiRow.vue'
 
 const items = ref([])
 const form = ref({ name: '', duration: 30, completed: false })
-const API = import.meta.env.VITE_API_BASE
+const API = 'http://localhost:3000'
 
 // Load data
 async function loadData() {
