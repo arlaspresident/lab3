@@ -4,7 +4,7 @@
       <h1>Om Vue.js och det här projektet</h1>
 
       <section class="reflection">
-        <h2>Första Intryck av Vue</h2>
+        <h2>Första intryck av vue</h2>
         <p>
           Att komma igång med Vue var ganska enkelt även om det var lite förvirrande i början. 
           Inlärningskurvan är mild vilket är bra för nybörjare. Men när man gräver djupare och behöver 
@@ -13,7 +13,7 @@
       </section>
 
       <section class="reflection">
-        <h2>Vad Gick Bra</h2>
+        <h2>Vad gick bra</h2>
         <ul>
           <li><strong>Enkelt att komma igång:</strong> Att sätta upp ett nytt Vue projekt med Vite är snabbt och smärtfritt.</li>
           <li><strong>Component slots:</strong> Slot systemet är bra för komponentkomposition.</li>
@@ -33,7 +33,7 @@
       </section>
 
       <section class="reflection">
-        <h2>Installation & Uppsättning</h2>
+        <h2>Installation och uppsättning</h2>
         <p>
           Vue.js installerades med hjälp av Vite som är ett modernt byggverktyg och mycket snabbare än det gamla Vue CLI. 
           Jag körde <code>npm create vite@latest</code> valde Vue som mall och sedan <code>npm install</code> för att hämta alla beroenden. 
@@ -46,7 +46,7 @@
       </section>
 
       <section class="reflection">
-        <h2>Skulle Jag Använda Vue Igen?</h2>
+        <h2>Skulle jag använda vue igen?</h2>
         <p>
           Ärligt talat? Troligtvis inte. Jag har bara inte tyckt om det. 
           Om jag fick välja skulle jag gå för React alla dagar i veckan. React känns enklare och mer förutsägbar. 

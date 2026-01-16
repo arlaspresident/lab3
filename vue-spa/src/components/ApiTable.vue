@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>API Data</h2>
     <form @submit.prevent="addItem" class="form">
       <input v-model="form.name" placeholder="Name" required />
       <input v-model.number="form.duration" type="number" placeholder="Duration" required />
@@ -93,7 +92,6 @@ onMounted(loadData)
 input {
   padding: 6px;
   flex: 1;
-  min-width: 100px;
 }
 
 label {
