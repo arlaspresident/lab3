@@ -2,16 +2,16 @@
   <div class="app">
     <nav class="navbar">
       <div class="nav-container">
-        <router-link to="/" class="nav-logo">Träningslogg</router-link>
+        <router-link to="/" class="nav-logo">Myfitness</router-link>
         <ul class="nav-menu">
           <li class="nav-item">
             <router-link to="/" class="nav-link" :class="{ active: $route.path === '/' }">Start</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/data" class="nav-link" :class="{ active: $route.path === '/data' }">Träningspass</router-link>
+            <router-link to="/data" class="nav-link" :class="{ active: $route.path === '/data' }">Trainings</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/info" class="nav-link" :class="{ active: $route.path === '/info' }">Om</router-link>
+            <router-link to="/info" class="nav-link" :class="{ active: $route.path === '/info' }">About</router-link>
           </li>
         </ul>
       </div>
@@ -55,9 +55,6 @@
   transition: color 0.3s;
 }
 
-.nav-logo:hover {
-  color: #4CAF50;
-}
 
 .nav-menu {
   display: flex;
@@ -83,7 +80,7 @@
 
 .nav-link:hover {
   color: white;
-  border-bottom-color: #4CAF50;
+  border-bottom-color: #2a5b28ff;
 }
 
 .nav-link.active {
